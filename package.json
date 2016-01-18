@@ -1,0 +1,26 @@
+{
+  "name": "subtly",
+  "version": "0.0.1",
+  "description": "Subtly get information from your terminal.",
+  "main": "subtly.js",
+  "bin": "cli.js",
+  "man": "./man/subtly.1",
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": "ErikPeterson/subtly",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "subtly",
+    "command line tools",
+    "utilities"
+  ],
+  "author": "Erik Sälgström Peterson <eriksalgstrom@gmail.com> (https://github.com/ErikPeterson",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
