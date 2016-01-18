@@ -1,23 +1,23 @@
-🌴 subtly 🌴
-=============
+🌴 subtly
+==========
 
 subtly is a command line tool that helps you subtly obtain information
 
 
-💻 installation 💻
-===================
+🔨 installation
+================
 
 ```bash
 $ npm install -g github:ErikPeterson/subtly
 ```
 
-⌨ usage ⌨
+💻 usage
 =========
  
 lol none yet
 
 
-👷 to do 👷
-============
+👷 to do
+=========
 
 - just about everything
