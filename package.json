@@ -21,6 +21,7 @@
   "author": "Erik Sälgström Peterson <eriksalgstrom@gmail.com> (https://github.com/ErikPeterson",
   "license": "GPL-3.0",
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "expect.js": "^0.3.1"
   }
 }
