@@ -3,9 +3,9 @@
 const expect = require('expect.js');
 const sinon = require('sinon');
 const mockery = require('mockery');
+const xml = require('fs').readFileSync(__dirname + '/support/sample-weather.xml');
 
 const key = 'AFAKEKEY';
-
 
 describe('Client', function(){
 
@@ -15,7 +15,7 @@ describe('Client', function(){
 		mockery.warnOnUnregistered(false);
 		mockery.registerMock('request-promise', function(){
 			spy.apply(this, arguments);
-			return new Promise((r)=>r(true));
+			return new Promise((r)=>r(xml));
 		});
 		mockery.registerAllowable('../lib/client.js', true);
 		this.client = require('../lib/client.js')(key);
