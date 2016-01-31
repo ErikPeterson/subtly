@@ -3,7 +3,7 @@
 const expect = require('expect.js');
 const sinon = require('sinon');
 const mockery = require('mockery');
-const xml = require('fs').readFileSync(__dirname + '/support/sample-weather.xml');
+const xml = require('fs').readFileSync(__dirname + '/support/sample-weather.xml').toString();
 
 const key = 'AFAKEKEY';
 
@@ -46,15 +46,25 @@ describe('Client', function(){
 
 			it('makes a request for the specified query and params', function(){
 
-				this.client.request('weather', {podstate: 'WeatherCharts:WeatherData__Past+5+years'});
+				this.client.request('weather new york', {includepodid: ['InstantaneousWeather:WeatherData', 'WeatherForecast:WeatherData']});
 				expect(this.spy.calledOnce).to.be.ok();
 				let args = this.spy.getCall(0).args[0];
 				expect(args.uri).to.equal('http://api.wolframalpha.com/v2/query');
 				expect(args.qs).to.eql({
-					podstate: 'WeatherCharts:WeatherData__Past+5+years',
+					includepodid: ['InstantaneousWeather:WeatherData', 'WeatherForecast:WeatherData'],
 					appid: 'AFAKEKEY',
-					input: 'weather'
+					input: 'weather new york'
 				});
+			});
+
+			it('resolves with the API response parsed to JSON', function(done){
+				this.client
+					.request('weather', {includepodid: ['InstantaneousWeather:WeatherData', 'WeatherForecast:WeatherData']})
+					.then(function(data){
+						expect(data.queryresult.success).to.be.ok();
+						expect(data.queryresult.pod).to.be.an(Array);
+						done();
+					}).catch(done);
 			});
 		});
 	});
