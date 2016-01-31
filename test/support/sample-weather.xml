@@ -1,60 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <queryresult success='true'
     error='false'
-    numpods='7'
-    datatypes='City,Weather'
+    numpods='2'
+    datatypes='Weather'
     timedout=''
     timedoutpods=''
-    timing='5.49'
-    parsetiming='0.088'
+    timing='1.987'
+    parsetiming='0.304'
     parsetimedout='false'
     recalculate=''
-    id='MSPa9681hg55825c2d4eied00005ag9h26288997g1f'
+    id='MSPa43861c455558de8i60hi000031825dgca654c860'
     host='http://www2.wolframalpha.com'
-    server='13'
-    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa9691hg55825c2d4eied000046i24b60d1eh19fi&amp;s=13'
+    server='3'
+    related='http://www2.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa43871c455558de8i60hi00003edd30b54gda5i3e&amp;s=3'
     version='2.6'>
- <pod title='Input interpretation'
-     scanner='Identity'
-     id='Input'
-     position='100'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9701hg55825c2d4eied00000ggif23gfai8heig?MSPStoreType=image/gif&amp;s=13'
-       alt='weather'
-       title='weather'
-       width='69'
-       height='23' />
-   <plaintext>weather</plaintext>
-  </subpod>
- </pod>
  <pod title='Latest recorded weather for New York City, New York'
      scanner='Data'
      id='InstantaneousWeather:WeatherData'
-     position='200'
+     position='100'
      error='false'
      numsubpods='1'
      primary='true'>
   <subpod title=''>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9711hg55825c2d4eied000061fa7gi7f0g030db?MSPStoreType=image/gif&amp;s=13'
-       alt='temperature | 30 °F
-conditions | overcast
-relative humidity | 80%  (dew point: 25 °F)
-wind speed | 0 mph
-(1 hour 13 minutes ago)'
-       title='temperature | 30 °F
-conditions | overcast
-relative humidity | 80%  (dew point: 25 °F)
-wind speed | 0 mph
-(1 hour 13 minutes ago)'
-       width='313'
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP43881c455558de8i60hi000024e31a5ch6c50i4b?MSPStoreType=image/gif&amp;s=3'
+       alt='temperature | 48 °F  (wind chill: 46 °F)
+conditions | clear
+relative humidity | 40%  (dew point: 25 °F)
+wind speed | 6 mph
+(50 minutes ago)'
+       title='temperature | 48 °F  (wind chill: 46 °F)
+conditions | clear
+relative humidity | 40%  (dew point: 25 °F)
+wind speed | 6 mph
+(50 minutes ago)'
+       width='320'
        height='153' />
-   <plaintext>temperature | 30 °F
-conditions | overcast
-relative humidity | 80%  (dew point: 25 °F)
-wind speed | 0 mph
-(1 hour 13 minutes ago)</plaintext>
+   <plaintext>temperature | 48 °F  (wind chill: 46 °F)
+conditions | clear
+relative humidity | 40%  (dew point: 25 °F)
+wind speed | 6 mph
+(50 minutes ago)</plaintext>
   </subpod>
   <states count='2'>
    <state name='Show metric'
@@ -67,7 +52,7 @@ wind speed | 0 mph
     <units count='1'>
      <unit short='mph'
          long='miles per hour' />
-     <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9721hg55825c2d4eied000028g2ga6b7c1h2eg2?MSPStoreType=image/gif&amp;s=13'
+     <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP43891c455558de8i60hi0000414i2aadb5c892ih?MSPStoreType=image/gif&amp;s=3'
          width='134'
          height='26' />
     </units>
@@ -77,31 +62,31 @@ wind speed | 0 mph
  <pod title='Weather forecast for New York City, New York'
      scanner='Data'
      id='WeatherForecast:WeatherData'
-     position='300'
+     position='200'
      error='false'
      numsubpods='2'
      primary='true'>
-  <subpod title='Tonight'>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9731hg55825c2d4eied000061f45af016ghhb3f?MSPStoreType=image/gif&amp;s=13'
-       alt='between 26 °F and 36 °F
-snow (late afternoon to night  |  early morning onward)  |  clear (all night)'
-       title='between 26 °F and 36 °F
-snow (late afternoon to night  |  early morning onward)  |  clear (all night)'
-       width='526'
-       height='64' />
-   <plaintext>between 26 °F and 36 °F
-snow (late afternoon to night  |  early morning onward)  |  clear (all night)</plaintext>
+  <subpod title='Today'>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP43901c455558de8i60hi000013h3ebea91g269bf?MSPStoreType=image/gif&amp;s=3'
+       alt='between 38 °F and 41 °F
+clear (early morning to early afternoon)  |  few clouds (early afternoon to late afternoon)  |  rain (late afternoon onward)  |  cloudy (late afternoon onward)'
+       title='between 38 °F and 41 °F
+clear (early morning to early afternoon)  |  few clouds (early afternoon to late afternoon)  |  rain (late afternoon onward)  |  cloudy (late afternoon onward)'
+       width='519'
+       height='98' />
+   <plaintext>between 38 °F and 41 °F
+clear (early morning to early afternoon)  |  few clouds (early afternoon to late afternoon)  |  rain (late afternoon onward)  |  cloudy (late afternoon onward)</plaintext>
   </subpod>
-  <subpod title='Tomorrow'>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9741hg55825c2d4eied00006587c81a36b2geef?MSPStoreType=image/gif&amp;s=13'
-       alt='between 26 °F and 29 °F
-snow (all day)  |  clear (all day)'
-       title='between 26 °F and 29 °F
-snow (all day)  |  clear (all day)'
-       width='238'
+  <subpod title='Tonight'>
+   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP43911c455558de8i60hi000043g4e8d90d67228a?MSPStoreType=image/gif&amp;s=3'
+       alt='between 41 °F and 44 °F
+rain (all night)  |  cloudy (all night)'
+       title='between 41 °F and 44 °F
+rain (all night)  |  cloudy (all night)'
+       width='262'
        height='64' />
-   <plaintext>between 26 °F and 29 °F
-snow (all day)  |  clear (all day)</plaintext>
+   <plaintext>between 41 °F and 44 °F
+rain (all night)  |  cloudy (all night)</plaintext>
   </subpod>
   <states count='3'>
    <state name='Show metric'
@@ -112,261 +97,23 @@ snow (all day)  |  clear (all day)</plaintext>
        input='WeatherForecast:WeatherData__More details' />
   </states>
  </pod>
- <pod title='Weather history &amp; forecast'
-     scanner='Data'
-     id='WeatherCharts:WeatherData'
-     position='400'
-     error='false'
-     numsubpods='4'>
-  <subpod title='Temperature'>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9751hg55825c2d4eied00005i4agd6gg8068feh?MSPStoreType=image/gif&amp;s=13'
-       alt='
-  |  |   |  
-low: 24 °F
-Fri, Jan 15, 6:00am | average high:  | 41 °F
-average low:  | 29 °F | high: 51 °F
-Sat, Jan 16, 3:30am
- |   |  '
-       title='
-  |  |   |  
-low: 24 °F
-Fri, Jan 15, 6:00am | average high:  | 41 °F
-average low:  | 29 °F | high: 51 °F
-Sat, Jan 16, 3:30am
- |   |  '
-       width='519'
-       height='190' />
-   <plaintext>
-  |  |   |  
-low: 24 °F
-Fri, Jan 15, 6:00am | average high:  | 41 °F
-average low:  | 29 °F | high: 51 °F
-Sat, Jan 16, 3:30am
- |   |  </plaintext>
-  </subpod>
-  <subpod title='Cloud cover'>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9761hg55825c2d4eied00005a4a4ff1f8d8ba50?MSPStoreType=image/gif&amp;s=13'
-       alt='
- | clear: 74.5% (3.4 days)   |  overcast: 14% (15.5 hours) '
-       title='
- | clear: 74.5% (3.4 days)   |  overcast: 14% (15.5 hours) '
-       width='519'
-       height='118' />
-   <plaintext>
- | clear: 74.5% (3.4 days)   |  overcast: 14% (15.5 hours) </plaintext>
-  </subpod>
-  <subpod title='Conditions'>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9771hg55825c2d4eied00000gf5bcdifdh9h5d6?MSPStoreType=image/gif&amp;s=13'
-       alt='
- | snow: 33.6% (1.5 days)   |  rain: 9.1% (10 hours)   |  fog: 0.7% (50 minutes) '
-       title='
- | snow: 33.6% (1.5 days)   |  rain: 9.1% (10 hours)   |  fog: 0.7% (50 minutes) '
-       width='519'
-       height='130' />
-   <plaintext>
- | snow: 33.6% (1.5 days)   |  rain: 9.1% (10 hours)   |  fog: 0.7% (50 minutes) </plaintext>
-  </subpod>
-  <subpod title='Precipitation rate'>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9781hg55825c2d4eied0000455400gie22540f8?MSPStoreType=image/gif&amp;s=13'
-       alt='
-(with water equivalent of snow)
-  | 
-maximum: 0.65 in/h
-Sat, Jan 16, 7:00am
-'
-       title='
-(with water equivalent of snow)
-  | 
-maximum: 0.65 in/h
-Sat, Jan 16, 7:00am
-'
-       width='519'
-       height='176' />
-   <plaintext>
-(with water equivalent of snow)
-  | 
-maximum: 0.65 in/h
-Sat, Jan 16, 7:00am
-</plaintext>
-  </subpod>
-  <states count='3'>
-   <statelist count='9'
-       value='Current week'
-       delimiters=''>
-    <state name='Current week'
-        input='WeatherCharts:WeatherData__Current week' />
-    <state name='Current day'
-        input='WeatherCharts:WeatherData__Current day' />
-    <state name='Next week'
-        input='WeatherCharts:WeatherData__Next week' />
-    <state name='Past week'
-        input='WeatherCharts:WeatherData__Past week' />
-    <state name='Past month'
-        input='WeatherCharts:WeatherData__Past month' />
-    <state name='Past year'
-        input='WeatherCharts:WeatherData__Past year' />
-    <state name='Past 5 years'
-        input='WeatherCharts:WeatherData__Past 5 years' />
-    <state name='Past 10 years'
-        input='WeatherCharts:WeatherData__Past 10 years' />
-    <state name='All'
-        input='WeatherCharts:WeatherData__All' />
-   </statelist>
-   <state name='Show metric'
-       input='WeatherCharts:WeatherData__Show metric' />
-   <state name='More'
-       input='WeatherCharts:WeatherData__More' />
-  </states>
- </pod>
- <pod title='Historical temperatures for January 18'
-     scanner='Data'
-     id='HistoricalTemperature:WeatherData'
-     position='500'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9791hg55825c2d4eied00003ceccee2h657bcd3?MSPStoreType=image/gif&amp;s=13'
-       alt='
-low: -1 °F
-Jan 1982 | average high:  | 39 °F
-average low:  | 24 °F | high: 59 °F
-Jan 1990
-(daily ranges, not corrected for changes in local weather station environment)'
-       title='
-low: -1 °F
-Jan 1982 | average high:  | 39 °F
-average low:  | 24 °F | high: 59 °F
-Jan 1990
-(daily ranges, not corrected for changes in local weather station environment)'
-       width='519'
-       height='161' />
-   <plaintext>
-low: -1 °F
-Jan 1982 | average high:  | 39 °F
-average low:  | 24 °F | high: 59 °F
-Jan 1990
-(daily ranges, not corrected for changes in local weather station environment)</plaintext>
-  </subpod>
-  <states count='2'>
-   <state name='Show table'
-       input='HistoricalTemperature:WeatherData__Show table' />
-   <state name='Show metric'
-       input='HistoricalTemperature:WeatherData__Show metric' />
-  </states>
- </pod>
- <pod title='Weather station information'
-     scanner='Data'
-     id='WeatherStationInformation:WeatherData'
-     position='600'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9801hg55825c2d4eied00005h75c8h4c1ch3ce7?MSPStoreType=image/gif&amp;s=13'
-       alt='name | KNYC
-relative position | 8 mi NNW  (from center of New York City)
-relative elevation | 125 feet (above center of New York City)
-local time | 12:04:09 am EST  |  Monday, January 18, 2016
-local sunlight | sun is below the horizon
-azimuth: 358°  (N)  |  altitude: -70°'
-       title='name | KNYC
-relative position | 8 mi NNW  (from center of New York City)
-relative elevation | 125 feet (above center of New York City)
-local time | 12:04:09 am EST  |  Monday, January 18, 2016
-local sunlight | sun is below the horizon
-azimuth: 358°  (N)  |  altitude: -70°'
-       width='475'
-       height='185' />
-   <plaintext>name | KNYC
-relative position | 8 mi NNW  (from center of New York City)
-relative elevation | 125 feet (above center of New York City)
-local time | 12:04:09 am EST  |  Monday, January 18, 2016
-local sunlight | sun is below the horizon
-azimuth: 358°  (N)  |  altitude: -70°</plaintext>
-  </subpod>
-  <states count='2'>
-   <state name='Show metric'
-       input='WeatherStationInformation:WeatherData__Show metric' />
-   <state name='More'
-       input='WeatherStationInformation:WeatherData__More' />
-  </states>
-  <infos count='2'>
-   <info>
-    <units count='1'>
-     <unit short='mi'
-         long='miles' />
-     <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9811hg55825c2d4eied0000571g42bea30ed15b?MSPStoreType=image/gif&amp;s=13'
-         width='80'
-         height='26' />
-    </units>
-   </info>
-   <info>
-    <link url='http://maps.google.com?ie=UTF8&amp;z=12&amp;t=k&amp;ll=40.779%2C-73.969&amp;q=40.779%20N%2C%2073.969%20W'
-        text='Satellite image' />
-   </info>
-  </infos>
- </pod>
- <pod title='Weather station comparisons'
-     scanner='Data'
-     id='LocalTemperature:WeatherData'
-     position='700'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9821hg55825c2d4eied00000dbb9h8051feg435?MSPStoreType=image/gif&amp;s=13'
-       alt=' | position | elevation | current temperature
-KNYC | 8 mi NNW | 157 ft | 30 °F  (1.2 hours ago)
-KLGA | 8 mi NNE | 30 ft | 32 °F  (1.2 hours ago)
-KJFK | 9 mi ESE | 23 ft | 30 °F  (1.2 hours ago)
-(sorted by distance and inferred reliability)'
-       title=' | position | elevation | current temperature
-KNYC | 8 mi NNW | 157 ft | 30 °F  (1.2 hours ago)
-KLGA | 8 mi NNE | 30 ft | 32 °F  (1.2 hours ago)
-KJFK | 9 mi ESE | 23 ft | 30 °F  (1.2 hours ago)
-(sorted by distance and inferred reliability)'
-       width='390'
-       height='153' />
-   <plaintext> | position | elevation | current temperature
-KNYC | 8 mi NNW | 157 ft | 30 °F  (1.2 hours ago)
-KLGA | 8 mi NNE | 30 ft | 32 °F  (1.2 hours ago)
-KJFK | 9 mi ESE | 23 ft | 30 °F  (1.2 hours ago)
-(sorted by distance and inferred reliability)</plaintext>
-  </subpod>
-  <states count='2'>
-   <state name='Show metric'
-       input='LocalTemperature:WeatherData__Show metric' />
-   <state name='More'
-       input='LocalTemperature:WeatherData__More' />
-  </states>
-  <infos count='1'>
-   <info>
-    <units count='2'>
-     <unit short='ft'
-         long='feet' />
-     <unit short='mi'
-         long='miles' />
-     <img src='http://www2.wolframalpha.com/Calculate/MSP/MSP9831hg55825c2d4eied000065i5bf57ced7i6b9?MSPStoreType=image/gif&amp;s=13'
-         width='80'
-         height='47' />
-    </units>
-   </info>
-  </infos>
- </pod>
  <assumptions count='1'>
   <assumption type='Clash'
-      word='weather'
+      word='new york'
       template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
-      count='2'>
-   <value name='WeatherWord'
-       desc='a weather query'
-       input='*C.weather-_*WeatherWord-' />
-   <value name='Word'
-       desc='a word'
-       input='*C.weather-_*Word-' />
+      count='3'>
+   <value name='City'
+       desc='a city'
+       input='*C.new+york-_*City-' />
+   <value name='USState'
+       desc='a US state'
+       input='*C.new+york-_*USState-' />
+   <value name='MusicWork'
+       desc='a music work'
+       input='*C.new+york-_*MusicWork-' />
   </assumption>
  </assumptions>
- <sources count='3'>
-  <source url='http://www.wolframalpha.com/sources/AstronomicalDataSourceInformationNotes.html'
-      text='Astronomical data' />
+ <sources count='2'>
   <source url='http://www.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html'
       text='Weather data' />
   <source url='http://www.wolframalpha.com/sources/WeatherForecastDataSourceInformationNotes.html'
