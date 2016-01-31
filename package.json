@@ -18,10 +18,16 @@
     "command line tools",
     "utilities"
   ],
-  "author": "Erik Sälgström Peterson <eriksalgstrom@gmail.com> (https://github.com/ErikPeterson",
+  "author": "Erik Sälgström Peterson <eriksalgstrom@gmail.com> (https://github.com/ErikPeterson)",
   "license": "GPL-3.0",
   "devDependencies": {
+    "expect.js": "^0.3.1",
     "mocha": "^2.3.4",
-    "expect.js": "^0.3.1"
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "request-promise": "^2.0.0",
+    "xml2json": "^0.9.0"
   }
 }
